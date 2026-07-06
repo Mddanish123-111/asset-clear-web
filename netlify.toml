@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"
+
+# No `base`, no `publish`, no [[plugins]] block. Next.js is the repo root
+# here, so Netlify's zero-config Next.js Runtime detects and configures
+# itself automatically. Do not add these back — see README.md for why.
